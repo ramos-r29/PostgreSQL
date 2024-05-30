@@ -22,7 +22,7 @@ sudo su postgres
 /usr/lib/postgresql/16/bin/initdb -D /usr/local/pgsql/data
 
 
- [ANEXAR IMAGEM ]
+<img src="https://github.com/ramos-r29/PostgreSQL/blob/main/01-PostgreSQL-install-debian/imagens/initdb.png" alt="Saida do comando initidb">
 
 5 - Verifique se o serviço postgresql esta em execução
 
@@ -38,7 +38,7 @@ sudo stop service postgresql
 
 /usr/local/pgsql$ /usr/lib/postgresql/16/bin/pg_ctl -D /usr/local/pgsql/data -l logfile start
 
-[ANEXAR IMAGEM]
 
+<img src="https://github.com/ramos-r29/PostgreSQL/blob/main/01-PostgreSQL-install-debian/imagens/pg_ctl.png" alt="Saida do comando pg_ctrl">
 
 
