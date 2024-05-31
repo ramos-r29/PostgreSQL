@@ -30,12 +30,12 @@
 
 <img src="https://github.com/ramos-r29/PostgreSQL/blob/main/01-PostgreSQL-install-debian/imagens/initdb.png" alt="Saida do comando initidb">
 
-**6 - Verifique se o serviço postgresql esta em execução:**
+**6 - Verificar se o serviço postgresql esta em execução:**
 
 `service postgresql status`
 
 
-**7 - Caso o serviço esteja em execução é necessário dar um stop, caso não esteja em execução siga para o passo seguinte:**
+**7 - Caso o serviço esteja em execução é necessário dar um stop, caso não esteja em execução seguir para o passo seguinte:**
 
 `sudo stop service postgresql`
 
