@@ -9,7 +9,7 @@
 `sudo mkdir -p /usr/local/pgsql/data`
 
 
-**2 - Dar permissão ao diretório para usuário postgres:***
+**2 - Dar permissão ao diretório para usuário postgres:**
 
 `sudo chown -R postgres:postgres /usr/local/pgsql`
 
