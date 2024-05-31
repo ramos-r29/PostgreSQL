@@ -14,9 +14,11 @@
 `sudo chown -R postgres:postgres /usr/local/pgsql`
 
  
-**3 - Encontrar o executável initidb:**
+**3 - Encontrar o executável initdb:**
 
-`find / -name initidb`
+`find / -name initdb`
+
+<img src="https://github.com/ramos-r29/PostgreSQL/blob/main/01-PostgreSQL-install-debian/imagens/find.png" alt="Saida do comando find">
 
 **4 - Trocar para usuário postgres:**
 
