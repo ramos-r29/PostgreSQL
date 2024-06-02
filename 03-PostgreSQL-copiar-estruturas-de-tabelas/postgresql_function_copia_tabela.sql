@@ -1,4 +1,4 @@
-CREATE OR REPLACE FUNCTION copia6_tabela(p_old_schema TEXT, p_old_table TEXT , p_new_schema TEXT, p_data BOOL)
+CREATE OR REPLACE FUNCTION copia_tabela(p_old_schema TEXT, p_old_table TEXT , p_new_schema TEXT, p_data BOOL)
 RETURNS void  
 LANGUAGE plpgsql
 AS $$
