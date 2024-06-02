@@ -49,6 +49,11 @@
 
 <img src="https://github.com/ramos-r29/PostgreSQL/blob/main/01-PostgreSQL-install-debian/imagens/pg_ctl.png" alt="Saida do comando pg_ctrl">
 
+É recomendo alterar a senha a senha do usuario postgres, isso pode ser feito pelo client `pslq` com o seguinte comando:
+
+```sql
+ALTER USER postgres WITH ENCRYPTED PASSWORD 'nova_senha';
+```
 
 <h6>Pronto !!! O cluster esta criado e o servidor PostgreSQL em funcionamento.</h6>
 
