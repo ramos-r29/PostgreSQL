@@ -39,3 +39,7 @@ https://www.postgresql.org/about/
 - **Criação de um cluster e inicialização do servidor:**
   
   https://github.com/ramos-r29/PostgreSQL/blob/main/01-PostgreSQL-install-debian/02_postgresql_iniciar_cluster.md
+
+- **Automatização do processo de VACUUM:**
+  
+  https://github.com/ramos-r29/PostgreSQL/tree/main/02-PostgreSQL-Vacuum
