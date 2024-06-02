@@ -33,7 +33,7 @@ BEGIN
                     AND a.table_name = p_old_table						  
             ) ;
     -- COPIA FKs DA TABELA ORIGINAL
-    FOR qu_fk IN (
+    FOR p_query_fk IN (
                     SELECT DISTINCT
                         'ALTER TABLE '||p_new_tb||' ADD CONSTRAINT '||b.constraint_name||' FOREIGN KEY ('||string_agg(b.column_name, ', ')||') REFERENCES '||b.table_schema||'.'||b.table_name||' ('||string_agg(b.column_name, ', ')||')'
                     FROM information_schema.table_constraints AS a
@@ -49,7 +49,7 @@ BEGIN
                         , b.table_name
                 )
     LOOP
-        EXECUTE qu_fk ;
+        EXECUTE p_query_fk ;
     END LOOP ;
     -- COPIA INDEX DA TABELA ORIGINAL
     FOR p_idx IN  (
