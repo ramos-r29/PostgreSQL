@@ -1,10 +1,10 @@
-# Versão do S.O. utilizada: Debian 12.5
-# Versão do PostgreSQL utilizada: 16.3
-
-<br>
-<br>
 
 # Processo VACUUM no PostgreSQL
+
+## Versão do S.O. utilizada: Debian 12.5
+## Versão do PostgreSQL utilizada: 16.3
+
+<br>
 
 O comando `VACUUM` no PostgreSQL é usado para recuperar o espaço de armazenamento que foi ocupado por tuplas que foram excluídas ou atualizadas. Isso é necessário porque, no PostgreSQL, quando uma tupla é excluída ou atualizada, os dados antigos não são removidos imediatamente. Em vez disso, eles são mantidos para permitir que transações em andamento continuem a ver os dados conforme eram no momento em que a transação começou. Isso é conhecido como "MVCC" (Controle de Concorrência MultiVersão).
 
