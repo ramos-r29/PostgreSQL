@@ -41,5 +41,11 @@ https://www.postgresql.org/about/
   https://github.com/ramos-r29/PostgreSQL/blob/main/01-PostgreSQL-install-debian/02_postgresql_iniciar_cluster.md
 
 - **Automatização do processo de VACUUM:**
-  
+
   https://github.com/ramos-r29/PostgreSQL/tree/main/02-PostgreSQL-Vacuum
+
+  
+- **Copiar uma tabela de um schema para outro levando os index e constraint:**
+
+  https://github.com/ramos-r29/PostgreSQL/tree/main/03-PostgreSQL-copiar-estruturas-de-tabelas
+
