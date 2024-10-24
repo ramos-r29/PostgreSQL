@@ -62,7 +62,7 @@ service postgresql status
 **7 - Caso o serviço esteja em execução é necessário dar um stop, caso não esteja em execução seguir para o passo seguinte:**
 
 ```shell
-sudo stop service postgresql
+sudo service postgresql stop
 ```
 
 <br>
@@ -70,7 +70,7 @@ sudo stop service postgresql
 **8 - Iniciar o servidor:**
 
 ```shell
-/usr/local/pgsql$ /usr/lib/postgresql/16/bin/pg_ctl -D /usr/local/pgsql/data -l logfile start
+/usr/lib/postgresql/16/bin/pg_ctl -D /usr/local/pgsql/data -l logfile start
 ```
 
 
