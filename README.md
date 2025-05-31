@@ -49,3 +49,6 @@ https://www.postgresql.org/about/
 
   https://github.com/ramos-r29/PostgreSQL/tree/main/03-PostgreSQL-copiar-estruturas-de-tabelas
 
+- **Inibir criação de tabela sem chave primaria:**
+
+  https://github.com/ramos-r29/PostgreSQL/tree/main/04-PostgreSQL-impedir-criar-tabelas-sem-chave-primaria
